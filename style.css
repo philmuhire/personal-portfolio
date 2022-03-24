@@ -19,6 +19,25 @@ header {
     padding: 30px 10px;
 }
 
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    border: 1px solid gray;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
 .logo {
     font-size: 26px;
     font-weight: bold;
