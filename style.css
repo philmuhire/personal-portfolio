@@ -12,6 +12,17 @@ body {
     align-items: center;
 
 }
+
+header {
+    width: 80%;
+    margin: auto;
+    padding: 30px 10px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
 /* #welcome-section h1 {
     font-weight: 500;
     font-size: 28px;
@@ -55,3 +66,9 @@ body {
     font-size: 24px;
 }
 
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: rebeccapurple;
+    }
+    
+}
